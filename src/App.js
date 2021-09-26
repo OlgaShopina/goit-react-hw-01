@@ -8,7 +8,7 @@ import statisticalData from './data/statistical-data.json';
 import friendList from './data/friend-list.json';
 import transactions from './data/transactions.json';
 
-function App() {
+export default function App() {
   return (
     <main>
     <Profile
@@ -24,5 +24,3 @@ function App() {
     </main>
   );
 }
-
-export default App;
